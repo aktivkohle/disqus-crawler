@@ -34,4 +34,6 @@ currentDeDisqusSites = list(set(df[df['language'] == 'de']['visited_site']))
  ]
 
 ```
-The list was about twenty times longer than that, and I think this time we can do a lot better..
+The list was about twenty times longer than that, and I think this time we can do a lot better.. Here is the beginnings of the new design:
+
+ ![class_diagram](class_diagram.png)
