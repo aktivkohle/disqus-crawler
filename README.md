@@ -35,6 +35,6 @@ currentDeDisqusSites = list(set(df[df['language'] == 'de']['visited_site']))
 
 ```
 
-# UML for the new design
+## UML for the new design
 
  ![class_diagram](class_diagram.png)
