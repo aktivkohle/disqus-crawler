@@ -12,7 +12,7 @@ So after extensively testing out the methods (see this notebook) it became clear
 
 A crawling mechanism. Start on one German website with disqus, crawl users and with the assumption that they spend most of their time on other German sites, fill up a database with the websites where their other activities take place. 
 
-## Object Oriented - _Work in Progress_ 
+## Object Oriented_ 
 _(September 2017)_
 
 I wrote a series of functions in a Jupyter Notebook for this crawler earlier in the year. They successfully crawled disqus on a small scale and after being seeded with one German site, crawled through the users to populate a list of other sites. It interacted with `sqlite3` Although it worked, it was very much a prototype, messy, not adequately systematic, not scalable. I sensed at the time it needed classes not just functions to clean it up. There was excessive repetition instead of a **single source of truth.** It simply takes more thought and planning to do it right, but back then, the concept was at least proven. 
