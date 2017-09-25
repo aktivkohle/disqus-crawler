@@ -8,9 +8,9 @@ Disqus has an API with [many different methods](https://disqus.com/api/docs/) fo
 
 So after extensively testing out the methods (see this notebook) it became clear that there were certain things you could not do with the API. Well, they don't want you to do them. The thing I most wanted to do which after extensive Stackoverflow readings realised was not explicitly possible was to obtain a list of all or many websites in Germany using disqus.
 
-## The solution
+## The solution - A crawling mechanism. 
 
-A crawling mechanism. Start on one German website with disqus, crawl users and with the assumption that they spend most of their time on other German sites, fill up a database with the websites where their other activities take place. 
+Start on one German website with disqus, crawl users and with the assumption that they spend most of their time on other German sites, fill up a database with the websites where their other activities take place. 
 
 ## Object Oriented 
 _(September 2017)_
@@ -38,3 +38,5 @@ currentDeDisqusSites = list(set(df[df['language'] == 'de']['visited_site']))
 ## UML for the new design
 
  ![class_diagram](class_diagram.png)
+
+Design is an iterative process. The code and UML diagram are being updated as it moves forward.
